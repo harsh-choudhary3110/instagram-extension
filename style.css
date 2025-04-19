@@ -1,0 +1,68 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 12px;
+  padding: 16px;
+  min-width: 360px;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: var(--bs-body-color);
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.header {
+  margin-left: -16px;
+  margin-right: -16px;
+  margin-bottom: 16px;
+  padding: 16px;
+  padding-top: 0;
+  border-bottom: 1px solid #dfdfdf;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.header * {
+  line-height: 1;
+}
+
+.form-control {
+  font-size: 12px;
+}
+
+.btn {
+  font-size: 12px;
+}
+
+.profile-picture {
+  width: 37px;
+  height: 37px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.user-name {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.list > *:not(:last-child) {
+  padding-bottom: 8px;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.expand-icon {
+  transition: all 0.2s ease-in-out;
+}
+.rotate-expand-icon {
+  transform: rotate(180deg);
+}
